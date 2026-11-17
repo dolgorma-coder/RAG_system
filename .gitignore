@@ -1,0 +1,25 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Project environment & tools
+.venv/
+.uv/
+
+# Local data & outputs (as requested by subject)
+data/raw/
+data/processed/
+data/output/
+*.zip
+
+# Evaluation material
+moulinette*
+
+# Tests are not submitted (subject, section V.3)
+tests/
+
+# OS specific
+.DS_Store
